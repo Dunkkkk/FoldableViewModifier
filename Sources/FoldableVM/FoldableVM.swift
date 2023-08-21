@@ -1,2 +1,9 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
+import SwiftUI
+
+public extension View {
+    
+    @inlinable
+    func foldable<Content: View>(modifiers: (Self) -> Content) -> Content {
+        modifiers(self)
+    }
+}
