@@ -1,10 +1,8 @@
 # FodableViewModifier
----
 - iOS 13
 🗂️ It's for all cleaning sickness
 ---
 ## How to use
----
 It's easy to use
 ``` swift
 Text("Hello, World")
@@ -46,5 +44,4 @@ and if you open code
 ```
 
 ## License
----
 **FoldableViewModifier** is under [MIT license](https://github.com/devxoul/Then/blob/master/LICENSE). 
